@@ -19,7 +19,7 @@ Feature: Feature to demo tags
     Then use log in to website
 
   @important
-  Scenario: Sample Two
+  Scenario: Sample Four
     Given user navigates to website
     When user cliks login button
     Then use log in to website
