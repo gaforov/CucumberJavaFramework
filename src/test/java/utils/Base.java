@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
@@ -20,10 +21,19 @@ public class Base {
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "true");
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 
+		String headless = ConfigsClass.getProperty("headless");
+
 		switch (ConfigsClass.getProperty("browser").toLowerCase()) {
 		case "chrome":
 			WebDriverManager.chromedriver().setup();
-			driver = new ChromeDriver();
+			ChromeOptions cOptions = new ChromeOptions();
+			if (headless.equalsIgnoreCase("true")) {
+				cOptions.setHeadless(true);
+				driver = new ChromeDriver(cOptions);
+			} else {
+				driver = new ChromeDriver(cOptions);
+			}
+
 			break;
 		case "firefox":
 			WebDriverManager.firefoxdriver().setup();
