@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-10-04T19:10:38.088Z",
+        "start_timestamp": "2020-10-05T15:21:19.650Z",
         "before": [
           {
             "result": {
-              "duration": 6933000000,
+              "duration": 8706000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 569000000,
+              "duration": 588000000,
               "status": "passed"
             },
             "match": {
@@ -57,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 2196000000,
+              "duration": 2234000000,
               "status": "passed"
             },
             "line": 6,
@@ -79,7 +79,7 @@
           },
           {
             "result": {
-              "duration": 78000000,
+              "duration": 92000000,
               "status": "passed"
             },
             "line": 7,
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 2104000000,
+              "duration": 2125000000,
               "status": "passed"
             },
             "line": 8,
@@ -104,11 +104,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-10-04T19:10:50.039Z",
+        "start_timestamp": "2020-10-05T15:21:33.474Z",
         "before": [
           {
             "result": {
-              "duration": 4488000000,
+              "duration": 4756000000,
               "status": "passed"
             },
             "match": {
@@ -123,7 +123,7 @@
         "after": [
           {
             "result": {
-              "duration": 563000000,
+              "duration": 583000000,
               "status": "passed"
             },
             "match": {
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 2200000000,
+              "duration": 2286000000,
               "status": "passed"
             },
             "line": 6,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 78000000,
+              "duration": 103000000,
               "status": "passed"
             },
             "line": 7,
@@ -192,7 +192,7 @@
           },
           {
             "result": {
-              "duration": 2074000000,
+              "duration": 2113000000,
               "status": "passed"
             },
             "line": 8,
