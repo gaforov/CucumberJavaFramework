@@ -1,13 +1,13 @@
 [
   {
-    "line": 1,
+    "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-10-05T15:21:19.650Z",
+        "start_timestamp": "2020-10-06T20:44:34.008Z",
         "before": [
           {
             "result": {
-              "duration": 8706000000,
+              "duration": 6228000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 12,
+        "line": 14,
         "name": "Check login is successful with valid credentials",
         "description": "",
         "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
         "after": [
           {
             "result": {
-              "duration": 588000000,
+              "duration": 575000000,
               "status": "passed"
             },
             "match": {
@@ -37,7 +37,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 4,
+            "line": 6,
             "name": "browser is open",
             "match": {
               "location": "steps.LoginDemoStepsPOM.browser_is_open()"
@@ -48,7 +48,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "user is on login page",
             "match": {
               "location": "steps.LoginDemoStepsPOM.user_is_on_login_page()"
@@ -57,10 +57,10 @@
           },
           {
             "result": {
-              "duration": 2234000000,
+              "duration": 2205000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "user enters Gareni and 12345",
             "match": {
               "arguments": [
@@ -79,10 +79,10 @@
           },
           {
             "result": {
-              "duration": 92000000,
+              "duration": 76000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "user clicks on login",
             "match": {
               "location": "steps.LoginDemoStepsPOM.user_clicks_on_login()"
@@ -91,24 +91,29 @@
           },
           {
             "result": {
-              "duration": 2125000000,
+              "duration": 2083000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "user is navigated to the home page",
             "match": {
               "location": "steps.LoginDemoStepsPOM.user_is_navigated_to_the_home_page()"
             },
             "keyword": "Then "
           }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          }
         ]
       },
       {
-        "start_timestamp": "2020-10-05T15:21:33.474Z",
+        "start_timestamp": "2020-10-06T20:44:45.224Z",
         "before": [
           {
             "result": {
-              "duration": 4756000000,
+              "duration": 4720000000,
               "status": "passed"
             },
             "match": {
@@ -116,14 +121,14 @@
             }
           }
         ],
-        "line": 13,
+        "line": 15,
         "name": "Check login is successful with valid credentials",
         "description": "",
         "id": "test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
         "after": [
           {
             "result": {
-              "duration": 583000000,
+              "duration": 591000000,
               "status": "passed"
             },
             "match": {
@@ -138,7 +143,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 4,
+            "line": 6,
             "name": "browser is open",
             "match": {
               "location": "steps.LoginDemoStepsPOM.browser_is_open()"
@@ -149,7 +154,7 @@
             "result": {
               "status": "passed"
             },
-            "line": 5,
+            "line": 7,
             "name": "user is on login page",
             "match": {
               "location": "steps.LoginDemoStepsPOM.user_is_on_login_page()"
@@ -158,10 +163,10 @@
           },
           {
             "result": {
-              "duration": 2286000000,
+              "duration": 2164000000,
               "status": "passed"
             },
-            "line": 6,
+            "line": 8,
             "name": "user enters Toshi and 12345",
             "match": {
               "arguments": [
@@ -180,10 +185,10 @@
           },
           {
             "result": {
-              "duration": 103000000,
+              "duration": 77000000,
               "status": "passed"
             },
-            "line": 7,
+            "line": 9,
             "name": "user clicks on login",
             "match": {
               "location": "steps.LoginDemoStepsPOM.user_clicks_on_login()"
@@ -192,15 +197,20 @@
           },
           {
             "result": {
-              "duration": 2113000000,
+              "duration": 2068000000,
               "status": "passed"
             },
-            "line": 8,
+            "line": 10,
             "name": "user is navigated to the home page",
             "match": {
               "location": "steps.LoginDemoStepsPOM.user_is_navigated_to_the_home_page()"
             },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
           }
         ]
       }
@@ -210,6 +220,132 @@
     "id": "test-login-functionality",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Features/LoginDemo.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2020-10-06T20:44:54.846Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4446000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Check login is successful with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successful-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 582000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.quit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on login page",
+            "match": {
+              "location": "steps.LoginDemoStepsPOM.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2172000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters \u003cusername\u003e and \u003cpassword\u003e",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 12
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 27
+                }
+              ],
+              "location": "steps.LoginDemoStepsPOM.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user cliks on login button",
+            "match": {
+              "location": "steps.LoginSteps.user_cliks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2066000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is navigated to the home page",
+            "match": {
+              "location": "steps.LoginDemoStepsPOM.user_is_navigated_to_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

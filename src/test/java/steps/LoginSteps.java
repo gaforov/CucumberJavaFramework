@@ -12,10 +12,10 @@ public class LoginSteps {
 //		System.out.println("Step 1: User is on login page");
 //	}
 
-	@When("user enters username and password")
-	public void user_enters_username_and_password() {
-		System.out.println("Step 2: enter username and password");
-	}
+//	@When("user enters username and password")  // improved version exits inside LoginDemoStepsPOM.java
+//	public void user_enters_username_and_password() {
+//		System.out.println("Step 2: enter username and password");
+//	}
 
 	@And("user cliks on login button")
 	public void user_cliks_on_login_button() {

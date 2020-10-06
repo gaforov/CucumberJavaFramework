@@ -1,3 +1,5 @@
+#while running this, make sure url is et to https://example.testproject.io/web/
+@Regression
 Feature: Test login functionality
 
   Scenario Outline: Check login is successful with valid credentials

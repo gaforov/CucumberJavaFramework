@@ -47,8 +47,6 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.20</version>
 		</dependency>
-
-
 		<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
@@ -56,10 +54,8 @@
 			<version>4.2.2</version>
 		</dependency>
 
-
-
-
 	</dependencies>
+
 
 	<build>
 		<plugins>
@@ -69,7 +65,7 @@
 				<version>2.22.0</version>
 				<configuration>
 					<includes>
-						<!-- **/*SmokeRunner.java -->
+						<include>**/*TestRunner.java</include>
 					</includes>
 					<testFailureIgnore>true</testFailureIgnore>
 				</configuration>
