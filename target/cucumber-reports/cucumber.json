@@ -3,11 +3,11 @@
     "line": 3,
     "elements": [
       {
-        "start_timestamp": "2020-10-07T04:51:40.830Z",
+        "start_timestamp": "2020-10-07T04:43:59.231Z",
         "before": [
           {
             "result": {
-              "duration": 5950000000,
+              "duration": 5923000000,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 578000000,
+              "duration": 580000000,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 2182000000,
+              "duration": 2188000000,
               "status": "passed"
             },
             "line": 8,
@@ -69,19 +69,19 @@
           },
           {
             "result": {
-              "duration": 70000000,
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 9,
-            "name": "user clicks on login",
+            "name": "user cliks on login button",
             "match": {
-              "location": "steps.LoginDemoStepsPOM.user_clicks_on_login()"
+              "location": "steps.LoginSteps.user_cliks_on_login_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2091000000,
+              "duration": 2092000000,
               "status": "passed"
             },
             "line": 10,

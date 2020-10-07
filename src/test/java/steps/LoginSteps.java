@@ -16,11 +16,11 @@ public class LoginSteps {
 //	public void user_enters_username_and_password() {
 //		System.out.println("Step 2: enter username and password");
 //	}
-
-	@And("user cliks on login button")
-	public void user_cliks_on_login_button() {
-		System.out.println("Step 3: click on login button");
-	}
+//
+//	@And("user cliks on login button")
+//	public void user_cliks_on_login_button() {
+//		System.out.println("Step 3: click on login button");
+//	}
 
 //	@Then("user is navigated to the home page")
 //	public void user_is_navigated_to_the_home_page() {

@@ -39,7 +39,7 @@ public class LoginDemoStepsPOM extends Base {
 //		driver.navigate().to("https://example.testproject.io/web/");  //change it from configuration.properties instead
 	}
 
-	@When("^user enters (.*) and (.*)$") //this is for POM
+	@When("^user enters (.*) and (.*)$") 
 //	@When("user enters <username> and <password>")  //this step already exists inside LoginSteps
 	public void user_enters_username_and_password(String username, String password) throws InterruptedException {
 		
