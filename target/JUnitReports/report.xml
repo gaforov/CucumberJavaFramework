@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="2" tests="2" time="0.399">
+<testcase classname="Feature to demo tags" name="Sample One" time="0.059">
+<skipped><![CDATA[Given user navigates to website.............................................undefined
+When user cliks login button................................................undefined
+Then use log in to website..................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Feature to demo tags" name="Sample Four" time="0.004">
+<skipped><![CDATA[Given user navigates to website.............................................undefined
+When user cliks login button................................................undefined
+Then use log in to website..................................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

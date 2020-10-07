@@ -11,7 +11,8 @@ import io.cucumber.junit.CucumberOptions;
 		,glue = "steps"
 		,monochrome = true
 		,plugin = {
-				"pretty", "json:target/cucumber.json"
+				"pretty", "html:target/cucumber-html-report", "json:target/cucumber-reports/cucumber.json", 
+				"junit:target/cucumber-reports/cucumber.xml", //"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 		}
 		,tags = "@Smoke" //logical operator is case sensitive, only lower.
 		)
