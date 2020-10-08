@@ -25,8 +25,8 @@ public class Base {
 
 		switch (ConfigsClass.getProperty("browser").toLowerCase()) {
 		case "chrome":
-			//WebDriverManager.chromedriver().setup();
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gareni\\eclipse-workspace\\CucumberJava\\src\\test\\resources\\Drivers\\chromedriver.exe");
+			WebDriverManager.chromedriver().setup();
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gareni\\eclipse-workspace\\CucumberJava\\src\\test\\resources\\Drivers\\chromedriver.exe");
 			ChromeOptions cOptions = new ChromeOptions();
 			if (headless.equalsIgnoreCase("true")) {
 				cOptions.setHeadless(true);
