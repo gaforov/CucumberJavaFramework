@@ -17,7 +17,7 @@ public class Base {
 
 	public static WebDriver setup() {
 		ConfigsClass.readProperties(
-				System.getProperty("user.dir") + "\\src\\test\\resources\\Configs\\congifuration.properties");
+				System.getProperty("user.dir") + "/src/test/resources/Configs/congifuration.properties");
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "true");
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 
