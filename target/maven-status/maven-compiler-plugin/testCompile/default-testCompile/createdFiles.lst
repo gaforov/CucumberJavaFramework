@@ -1,0 +1,15 @@
+steps\LoginSteps.class
+pages\LoginPagePF.class
+pages\LoginPage.class
+runners\TestRunner.class
+runners\RegressionRunner.class
+runners\SmokeRunner.class
+steps\LoginDemoSteps.class
+steps\GoogleSearchSteps.class
+utils\Base.class
+steps\LoginDemoStepsPF.class
+JenkinsTest.class
+utils\ConfigsClass.class
+steps\Hooks.class
+steps\LoginDemoStepsPOM.class
+pages\HomePagePF.class
