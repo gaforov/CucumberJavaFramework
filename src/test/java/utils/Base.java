@@ -17,7 +17,7 @@ public class Base {
 
 	public static WebDriver setup() {
 		ConfigsClass.readProperties(
-				System.getProperty("user.dir") + "/src/test/resources/Configs/congifuration.properties");
+				System.getProperty("user.dir") + "\\src\\test\\resources\\Configs\\congifuration.properties");
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_LOG_PROPERTY, "true");
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_SILENT_OUTPUT_PROPERTY, "true");
 
@@ -25,7 +25,8 @@ public class Base {
 
 		switch (ConfigsClass.getProperty("browser").toLowerCase()) {
 		case "chrome":
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Gareni\\eclipse-workspace\\CucumberJava\\src\\test\\resources\\Drivers\\chromedriver.exe");
 			ChromeOptions cOptions = new ChromeOptions();
 			if (headless.equalsIgnoreCase("true")) {
 				cOptions.setHeadless(true);
